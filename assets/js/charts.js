@@ -46,10 +46,16 @@ function drawLeaguePosition() {
             0: { color: '#EA323D' },
         },
         vAxis: {
-            direction: -1, viewWindow: {
-                min: 0,
-                max: 20
-            }
+            direction: -1, 
+            minValue: 1,
+            maxValue: 20,
+            interval: 1,
+            viewWindow: {
+                min: 1,
+                max: 20,
+                interval : 1
+            },
+           ticks: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
         }
     };
 
@@ -72,10 +78,16 @@ function drawPremierLeaguePosition() {
             0: { color: '#EA323D' },
         },
         vAxis: {
-            direction: -1, viewWindow: {
-                min: 0,
-                max: 20
-            }
+            direction: -1, 
+            minValue: 1,
+            maxValue: 20,
+            interval: 1,
+            viewWindow: {
+                min: 1,
+                max: 20,
+                interval : 1
+            },
+           ticks: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
         }
     };
 
