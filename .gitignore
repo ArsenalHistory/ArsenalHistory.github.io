@@ -3,3 +3,4 @@
 .vs
 .vscode
 _site
+.jekyll-cache
