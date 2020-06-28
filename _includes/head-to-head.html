@@ -4,23 +4,23 @@
 
 {% for data in site.seasons %} 
      {% for match in data.Matches %}
-        {% if match.OppositionTeam == page.OppositionTeam or match.OppositionTeam == page.OppositionTeam %}
+        {% if match.OppositionTeam == page.OppositionTeam and match.Competition == "League" %}
       {% capture oppositionWins %}
-        {% if match.OppositionScore > match.ArsenalScore and match.Competition == "League" %}
+        {% if match.OppositionScore > match.ArsenalScore %}
           {{ oppositionWins | plus: 1 }}
         {% else %}
           {{ oppositionWins | plus: 0 }}
         {% endif %} 
       {% endcapture %}
       {% capture arsenalWins %}
-        {% if match.OppositionScore < match.ArsenalScore and match.Competition == "League" %}
+        {% if match.OppositionScore < match.ArsenalScore %}
           {{ arsenalWins | plus: 1 }}
         {% else %}
           {{ arsenalWins | plus: 0 }}
         {% endif %} 
       {% endcapture %}
       {% capture draws %}
-        {% if match.OppositionScore == match.ArsenalScore and match.Competition == "League" %}
+        {% if match.OppositionScore == match.ArsenalScore %}
           {{ draws | plus: 1 }} 
         {% else %}
           {{ draws | plus: 0 }}
