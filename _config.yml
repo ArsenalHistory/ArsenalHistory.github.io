@@ -29,3 +29,8 @@ collections:
   seasons:
     output: true
     permalink: /:collection/:path/
+  teams:
+    output: true
+    permalink: /:collection/:path/
+
+

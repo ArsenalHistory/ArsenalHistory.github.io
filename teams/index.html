@@ -1,0 +1,28 @@
+---
+layout: default
+excerpt: View all the matches in Arsenal's history including the fixtures, results and goals in the League, FA Cup and European Competitons.
+title: Head to Head
+breadcrumbs:
+    - title : Head to Head
+      url : /teams
+robots: noindex, follow 
+sitemap: false
+---
+
+<div class="container">
+    {% include breadcrumb.html %}
+
+    <div class="row">
+        <div class="col s12">
+        <div class="card-panel">
+            <h2>A list of Arsenal's Opponents</h2>
+            <ul class="collection">
+                 {% assign sorted = (site.teams | sort: 'team') %} {% for data in sorted %} {% if data.team != "" and data.team
+            != nil %}
+            <li class="collection-item"><a href="{{ data.url }}">{{ data.team }}</a></li>
+            {% endif %} {% endfor %}
+            </ul>
+        </div>
+    </div>    
+    </div>    
+</div>
