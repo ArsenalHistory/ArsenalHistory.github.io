@@ -47,7 +47,7 @@ const postHandler = workbox.strategies.cacheFirst({
   ]
 });
 
-workbox.routing.registerRoute(/\/seasons\/\d+-\d+/, args => {
+workbox.routing.registerRoute(/.*/, args => {
   return postHandler.handle(args).then(response => {
     if (response.status === 404) {
       return caches.match('pages/404.html');
