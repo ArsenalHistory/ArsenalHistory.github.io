@@ -1,19 +1,13 @@
 {% for data in page.Matches %} 
-{% capture arsenal_score %} 
 {% if data.Competition == "League" %} 
+{% capture arsenal_score %} 
 {{ arsenal_score | plus: data.ArsenalScore }} 
-{% else %}
-{{ arsenal_score | plus: 0 }} 
-{% endif %} 
 {% endcapture %}
 
 {% capture opposition_score %} 
-{% if data.Competition == "League" %} 
 {{ opposition_score | plus: data.OppositionScore }} 
-{% else %}
-{{ opposition_score | plus: 0 }}
-{% endif %} 
 {% endcapture %} 
+{% endif %} 
 {% endfor %}
 
 
