@@ -6,15 +6,7 @@
       <ul class="hide-on-med-and-down right">
         <li><a href="/memorable-matches">Memorable matches</a></li>
         <li><a href="/teams">Head to Head</a></li>
-        <li>
-          <a class="dropdown-button dropdown-trigger" href="#!" data-target="seasons-dropdown">Choose Season<i class="material-icons right">arrow_drop_down</i></a>
-          <ul id='seasons-dropdown' class='dropdown-content'>
-            {% assign sorted = (site.seasons | sort: 'Season') | reverse %} {% for data in sorted %} {% if data.Season != "" and data.Season
-            != nil %}
-            <li><a href="/seasons/{{ data.Season }}/">{{ data.Season }}</a></li>
-            {% endif %} {% endfor %}
-          </ul>
-        </li>
+        <li><a href="/seasons">Seasons</a></li>
       </ul>
     </div>
   </nav>
