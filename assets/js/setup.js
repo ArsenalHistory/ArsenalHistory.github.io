@@ -25,11 +25,6 @@ for (var i = 0; i < elementLength; i++) {
     element.setAttribute("src", element.getAttribute("data-src"));
 }
 
-var elems = document.querySelectorAll('.dropdown-trigger');
-if (elems.length > 0) {
-    var instances = M.Dropdown.init(elems);
-}
-
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker
         .register('/service-worker.js')
