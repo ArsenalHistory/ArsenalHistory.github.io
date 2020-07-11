@@ -7,7 +7,7 @@
         <li><a href="/memorable-matches">Memorable matches</a></li>
         <li><a href="/teams">Head to Head</a></li>
         <li>
-          <a class="dropdown-button" href="#!" data-activates="seasons-dropdown">Choose Season<i class="material-icons right">arrow_drop_down</i></a>
+          <a class="dropdown-button dropdown-trigger" href="#!" data-target="seasons-dropdown">Choose Season<i class="material-icons right">arrow_drop_down</i></a>
           <ul id='seasons-dropdown' class='dropdown-content'>
             {% assign sorted = (site.seasons | sort: 'Season') | reverse %} {% for data in sorted %} {% if data.Season != "" and data.Season
             != nil %}

@@ -1,6 +1,6 @@
     <div class="row">
         <div class="col s12 m4 l3">
-            <a class="dropdown-button card-panel" href="#!" data-activates="teams-dropdown">Choose Team<i class="material-icons">arrow_drop_down</i></a>
+            <a class="dropdown-button dropdown-trigger card-panel" href="#!" data-target="teams-dropdown">Choose Team<i class="material-icons">arrow_drop_down</i></a>
             <ul id='teams-dropdown' class='dropdown-content'>
                 {% for data in site.teams %}
                 <li><a href="{{data.url}}">{{data.team}}</a></li>

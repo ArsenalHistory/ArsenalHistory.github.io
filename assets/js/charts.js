@@ -139,9 +139,8 @@ function drawWinLossDrawChart() {
     renderChart('PieChart','pie_chart', options, data);
 }
 
-
-$(window).resize(function(){
-    drawLeaguePosition();
-    drawPremierLeaguePosition();
-    drawWinLossDrawChart();
+window.addEventListener('resize', function(){
+  drawLeaguePosition();
+  drawPremierLeaguePosition();
+  drawWinLossDrawChart();
 });
