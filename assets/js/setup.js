@@ -26,7 +26,9 @@ for (var i = 0; i < elementLength; i++) {
 }
 
 var elems = document.querySelectorAll('.dropdown-trigger');
-var instances = M.Dropdown.init(elems);
+if (elems.length > 0) {
+    var instances = M.Dropdown.init(elems);
+}
 
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker
