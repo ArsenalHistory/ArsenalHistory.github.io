@@ -2,9 +2,18 @@
 ---
 
 google.charts.load('current', { 'packages': ['corechart'] });
-google.charts.setOnLoadCallback(drawLeaguePosition);
-google.charts.setOnLoadCallback(drawPremierLeaguePosition);
-google.charts.setOnLoadCallback(drawWinLossDrawChart);
+
+window.lazyFunctions = {
+  googleRenderLeaguePosition : function() {
+    google.charts.setOnLoadCallback(drawLeaguePosition);
+  },
+  googleRenderPremierLeaguePosition : function() {
+    google.charts.setOnLoadCallback(drawPremierLeaguePosition);
+  },
+  googleRenderWinLossDrawChart : function() {
+    google.charts.setOnLoadCallback(drawWinLossDrawChart);
+  }
+}
 
 function renderChart(type, id, options, data){
 
@@ -134,6 +143,7 @@ function drawWinLossDrawChart() {
         title: 'Win/Draw/Loss record since 1893 in the League',
         curveType: 'function',
         legend: { position: 'bottom' },
+        is3D: true,
     };
 
     renderChart('PieChart','pie_chart', options, data);
@@ -143,4 +153,18 @@ window.addEventListener('resize', function(){
   drawLeaguePosition();
   drawPremierLeaguePosition();
   drawWinLossDrawChart();
+});
+
+function executeLazyFunction(element) {
+  var lazyFunctionName = element.getAttribute(
+    "data-lazy-function"
+  );
+  var lazyFunction = window.lazyFunctions[lazyFunctionName];
+  if (!lazyFunction) return;
+  lazyFunction(element);
+}
+
+var ll = new LazyLoad({
+  unobserve_entered: true, // <- Avoid executing the function multiple times
+  callback_enter: executeLazyFunction // Assigning the function defined above
 });
