@@ -15,14 +15,8 @@ for (var i = 0; i < imagesLength; i++) {
 
     });
 }
-
-//load images after page load
-var elements = document.querySelectorAll('.responsive-img[data-src]');
-var elementLength = elements.length;
-for (var i = 0; i < elementLength; i++) {
-    var element = elements[i];
-    console.log(element.getAttribute("data-src"));
-    element.setAttribute("src", element.getAttribute("data-src"));
+if(document.querySelectorAll('.responsive-img[data-src]').length > 0) {
+    var ll = new LazyLoad({unobserve_entered: true});
 }
 
 if ('serviceWorker' in navigator) {
