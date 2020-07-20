@@ -1,6 +1,6 @@
 ---
 layout: post
-header: FA Cup Winners
+header: Arsenal 1-0 Southampton
 date:   2003-05-17
 categories: fa-cup
 video: "oRGiMoRforg"

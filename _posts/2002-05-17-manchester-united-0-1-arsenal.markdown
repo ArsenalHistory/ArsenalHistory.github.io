@@ -1,6 +1,6 @@
 ---
 layout: post
-header: League Winners
+header: Man United 0-1 Arsenal
 date:   2002-05-17
 categories: premier-league
 video: "hRDJNoax8p8"

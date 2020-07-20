@@ -1,6 +1,6 @@
 ---
 layout: post
-header: FA Cup Winners
+header: Arsenal 3-2 Hull
 date:   2014-05-17
 categories: fa-cup
 video: "7K5j4mMfBK0"

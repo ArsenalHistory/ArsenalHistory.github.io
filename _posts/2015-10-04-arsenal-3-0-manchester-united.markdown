@@ -1,6 +1,6 @@
 ---
 layout: post
-header: Arsenal 3-0 Manchester United
+header: Arsenal 3-0 Man United
 date:   2015-10-04
 categories: premier-league
 video: "9A_r-3PlyqY"

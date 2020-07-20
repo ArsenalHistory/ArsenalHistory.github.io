@@ -1,6 +1,6 @@
 ---
 layout: post
-header: FA Cup Winners
+header: Arsenal 2-0 Newcastle United
 date:   1998-05-17
 categories: fa-cup
 video: "9pGtiVag3is"

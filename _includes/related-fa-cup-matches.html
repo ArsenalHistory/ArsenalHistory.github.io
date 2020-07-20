@@ -1,10 +1,10 @@
 {% for post in site.categories.fa-cup limit: 3 %} 
-{% if post.url %}
+{% if post.url != page.url %}
 <div class="col s12 m4">
     <div class="card medium hoverable">
         <div class="card-image waves-effect waves-block waves-light">
             <a href="{{post.url}}">
-                <img class="responsive-img" data-src="https://img.youtube.com/vi/{{post.video}}/0.jpg" alt="{{ post.header }}" />
+                <img class="responsive-img lazy" data-src="https://img.youtube.com/vi/{{post.video}}/0.jpg" alt="{{ post.header }}" />
                 <span class="card-title valign-wrapper" data-id="video_{{forloop.index}}">{{ post.header }}
                 </span>
             </a>
