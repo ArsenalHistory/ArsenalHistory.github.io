@@ -31,7 +31,3 @@ workbox.routing.registerRoute(
     ],
   }),
 );
-
-self.addEventListener('message', event => {
-  console.log(event);
-});
