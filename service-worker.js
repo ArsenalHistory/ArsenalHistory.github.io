@@ -7,6 +7,13 @@ workbox.routing.registerRoute(
   }),
 );
 
+workbox.routing.registerRoute(
+  /^https:\/\/img\.youtube\.com/,
+  new workbox.strategies.StaleWhileRevalidate({
+    cacheName: 'youtube-resources',
+  }),
+);
+
 // Cache the Google Fonts stylesheets with a stale while revalidate strategy.
 workbox.routing.registerRoute(
   /^https:\/\/fonts\.googleapis\.com/,
