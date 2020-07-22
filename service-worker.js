@@ -32,27 +32,6 @@ workbox.routing.registerRoute(
   }),
 );
 
-const postHandler = workbox.strategies.cacheFirst({
-  cacheName: 'page-cache',
-  plugins: [
-    new workbox.expiration.Plugin({
-      maxEntries: 300,
-    })
-  ]
-});
-
-workbox.routing.registerRoute(/.*/, args => {
-  return postHandler.handle(args).then(response => {
-    if (response.status === 404) {
-      return caches.match('pages/404.html');
-    }
-    return response;
-  })
-  .catch(function() {
-    return caches.match('pages/offline.html');
-  });
-});
-
 self.addEventListener('message', event => {
   console.log(event);
 });
