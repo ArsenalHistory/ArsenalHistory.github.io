@@ -15,7 +15,7 @@ for (var i = 0; i < imagesLength; i++) {
 
     });
 }
-if(document.querySelectorAll('.lazy').length > 0) {
+if(document.querySelectorAll('.lazy:not([data-lazy-function])').length > 0) {
     var ll = new LazyLoad({unobserve_entered: true});
 }
 
