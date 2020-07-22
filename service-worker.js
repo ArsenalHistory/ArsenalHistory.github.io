@@ -1,8 +1,8 @@
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js');
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
 
 workbox.routing.registerRoute(
   /\.(?:js|css)$/,
-  workbox.strategies.staleWhileRevalidate({
+  new workbox.strategies.StaleWhileRevalidate({
     cacheName: 'static-resources',
   }),
 );
@@ -10,7 +10,7 @@ workbox.routing.registerRoute(
 // Cache the Google Fonts stylesheets with a stale while revalidate strategy.
 workbox.routing.registerRoute(
   /^https:\/\/fonts\.googleapis\.com/,
-  workbox.strategies.staleWhileRevalidate({
+  new workbox.strategies.StaleWhileRevalidate({
     cacheName: 'google-fonts-stylesheets',
   }),
 );
@@ -18,13 +18,13 @@ workbox.routing.registerRoute(
 // Cache the Google Fonts webfont files with a cache first strategy for 1 year.
 workbox.routing.registerRoute(
   /^https:\/\/fonts\.gstatic\.com/,
-  workbox.strategies.cacheFirst({
+  new workbox.strategies.CacheFirst({
     cacheName: 'google-fonts-webfonts',
     plugins: [
-      new workbox.cacheableResponse.Plugin({
+      new workbox.cacheableResponse.CacheableResponsePlugin({
         statuses: [0, 200],
       }),
-      new workbox.expiration.Plugin({
+      new workbox.expiration.ExpirationPlugin({
         maxAgeSeconds: 60 * 60 * 24 * 365,
         maxEntries: 30,
       }),
