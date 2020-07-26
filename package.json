@@ -1,0 +1,19 @@
+{
+  "name": "arsenalhistory.github.io",
+  "version": "1.0.0",
+  "description": "History of Arsenal Football Club",
+  "main": "service-worker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArsenalHistory/ArsenalHistory.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArsenalHistory/ArsenalHistory.github.io/issues"
+  },
+  "homepage": "https://github.com/ArsenalHistory/ArsenalHistory.github.io#readme"
+}
