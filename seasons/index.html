@@ -17,7 +17,7 @@ sitemap: false
         <div class="card-panel">
             <h2>A list of Arsenal's league seasons</h2>
             <ul class="collection">
-                 {% assign sorted = (site.seasons | sort: 'Season') | reverse %} {% for data in sorted %} {% if data.Season != "" and data.Season
+                 {% assign sorted = site.seasons | sort: 'Season' | reverse %} {% for data in sorted %} {% if data.Season != "" and data.Season
             != nil %}
             <li class="collection-item"><a href="/seasons/{{ data.Season }}/">{{ data.Season }} season summary</a></li>
             {% endif %} {% endfor %}

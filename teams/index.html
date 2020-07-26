@@ -17,7 +17,7 @@ sitemap: false
         <div class="card-panel">
             <h2>A list of Arsenal's Opponents</h2>
             <ul class="collection">
-                 {% assign sorted = (site.teams | sort: 'team') %} {% for data in sorted %} {% if data.team != "" and data.team
+                 {% assign sorted = site.teams | sort: 'team' %} {% for data in sorted %} {% if data.team != "" and data.team
             != nil %}
             <li class="collection-item"><a href="{{ data.url }}">{{ data.team }}</a></li>
             {% endif %} {% endfor %}
