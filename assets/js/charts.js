@@ -43,7 +43,7 @@ function drawLeaguePosition() {
     var data = google.visualization.arrayToDataTable([
         ['Season', 'Position'],
         {% for data in site.data.season-finishes %}
-        ['{{data.Season}}', {{data.Position }}],
+        ['{{data.Season}}/{{data.Season | plus: 1}}', {{data.Position }}],
         {% endfor %}
     ]);
 
@@ -74,8 +74,9 @@ function drawLeaguePosition() {
 function drawPremierLeaguePosition() {
     var data = google.visualization.arrayToDataTable([
         ['Season', 'Position'],
-        {% for data in site.data.season-finishes-premier-league %}
-        ['{{data.Season}}', {{data.Position }}],
+        {% assign seasonfinishes = site.data.season-finishes | where_exp: 'item', 'item.Season >= 1992' %}
+        {% for data in seasonfinishes %}
+        ['{{data.Season}}/{{data.Season | plus: 1}}', {{data.Position }}],
         {% endfor %}
     ]);
 
