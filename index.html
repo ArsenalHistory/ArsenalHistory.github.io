@@ -41,7 +41,7 @@ includeCharts: true
                 </tr>
             </thead>
 
-    {% assign seasons = site.seasons | where:"Season","2019-2020" %}
+    {% assign seasons = site.seasons | reverse %}
     {% for season in seasons limit:1 %}
      <tbody>
        {% assign matchesSorted = season.Matches | reverse %}
@@ -70,7 +70,7 @@ includeCharts: true
                     <th>Date</th>
                 </tr>
             </thead>
-    {% assign seasons = site.seasons | sort: 'Season' | reverse %}
+    {% assign seasons = site.seasons | reverse %}
     {% for season in seasons limit:1 %}
      <tbody>
         {% assign matches = season.Matches | where_exp: 'item', 'item.ArsenalScore == nil' %}
