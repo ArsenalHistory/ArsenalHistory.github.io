@@ -1,6 +1,6 @@
 ---
 layout: post
-header: Arsenal 2-0 Manchester City
+header: Arsenal 2-0 Man City
 date:   2020-07-18
 categories: fa-cup
 video: "bWbifTQGG-E"

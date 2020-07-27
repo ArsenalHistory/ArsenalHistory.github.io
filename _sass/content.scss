@@ -46,22 +46,11 @@ body {
   margin-top: 10px;
 }
 h1 {
-  font-size: 1rem;
   display:inline;
   line-height: inherit;
   padding-left:60px;
-
-  @media #{$medium-and-up} {
-      font-size:1.5rem;
-  }
 }
 
-h2{
-  font-size: 2rem;
-}
-h3{
-  font-size: 1rem;
-}
 .promo {
   svg {
     height: 70px;
@@ -108,12 +97,4 @@ nav {
   a{
     padding-right:10px;
   }
-}
-
-iframe {
- border:0;
-}
-
-td{
-  border-radius: 0;
 }
