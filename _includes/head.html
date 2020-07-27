@@ -6,15 +6,13 @@
   <meta name="google-site-verification" content="gQQ3Ov9T4WA4mXI4ynlnUoIoQ5ZQ9BajLrG3e5e1vxc" />
   <meta name="msvalidate.01" content="B13568B632345207C6B93D4277221EAF" />
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | ArsenalHistory.co.uk</title>
-  <meta name="description"
-    content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% elsif page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% elsif page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <meta property="og:title"
-    content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | ArsenalHistory.co.uk" />
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | ArsenalHistory.co.uk" />
   <meta property="og:type" content="website" />
-  <meta property="og:url"
-    content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% elsif page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="theme-color" content="#ea323d">
   <link rel="manifest" href="/assets/manifest.json">
   <link rel="preconnect" href="https://storage.googleapis.com" />
