@@ -55,18 +55,21 @@
         <table class="highlight">
             <thead>
                 <tr>
+                    <th>Date</th>
+                    <th>Match</th>
                     <th>Score</th>
                     <th>Competition</th>
-                    <th>Date</th>
                 </tr>
             </thead>
             <tbody>
                 {% for data in page.Matches %}
                 <tr class="{% if data.ArsenalScore > data.OppositionScore %}{{'green accent-4'}}{% elsif data.ArsenalScore == data.OppositionScore %}{{'yellow accent-4'}}{% else %}{{'red accent-4'}}{% endif %}">
-                    <td>{% if data.HomeOrAway == "Home" %}Arsenal {{ data.ArsenalScore}} - {{data.OppositionScore}} {{data.OppositionTeam}} {% else %}{{data.OppositionTeam}} {{data.OppositionScore}} - {{ data.ArsenalScore}} Arsenal{% endif %}
-                    </td>
-                    <td>{{data.Competition}}</td>
                     <td>{{data.Date}}</td>
+                    <td>{% if data.HomeOrAway == "Home" %}Arsenal vs {{data.OppositionTeam}} {% else %}{{data.OppositionTeam}} vs Arsenal{% endif %}
+                    </td>
+                    <td>{% if data.HomeOrAway == "Home" %}{{ data.ArsenalScore}} - {{data.OppositionScore}} {% else %} {{data.OppositionScore}} - {{ data.ArsenalScore}}{% endif %}</td>
+                    <td>{{data.Competition}}</td>
+                    
                 </tr>
                 {% endfor %}
             </tbody>
