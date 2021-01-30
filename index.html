@@ -1,106 +1,122 @@
 ---
 layout: default
-excerpt:  A history of all the famous moments for the Arsenal Football Club. A record 13 FA Cup wins. Going unbeaten in 2003/2004 which immortalised the club.
+excerpt: A history of all the famous moments for the Arsenal Football Club. A record 13 FA Cup wins. Going unbeaten in
+2003/2004 which immortalised the club.
 title: History of Arsenal Football Club
 includeCharts: true
 ---
 <div class="container">
-<div class="row">
-  <div class="col s12 m4">
-    <div class="center promo promo-example card-panel hoverable">
-      {% include premier-league.svg %}
-      <p class="promo-caption">13 league titles</p>
-      <p class="light center">One of the most successful teams in England</p>
+  <div class="row">
+    <div class="col s12 m4">
+      <div class="center promo promo-example card-panel hoverable">
+        {% include premier-league.svg %}
+        <p class="promo-caption">13 league titles</p>
+        <p class="light center">One of the most successful teams in England</p>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="center promo promo-example card-panel hoverable">
+        <img src="/assets/img/emirates-fa-cup.jpg" alt="FA cup logo" />
+        <p class="promo-caption">14 FA Cup titles</p>
+        <p class="light center">The most successful team in FA Cup history</p>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="center promo promo-example card-panel hoverable">
+        {% include 49.svg %}
+        <p class="promo-caption">49 games unbeaten</p>
+        <p class="light center">Record unbeaten run in the premier league</p>
+      </div>
     </div>
   </div>
-  <div class="col s12 m4">
-    <div class="center promo promo-example card-panel hoverable">
-      <img src="/assets/img/emirates-fa-cup.jpg" alt="FA cup logo" />
-      <p class="promo-caption">14 FA Cup titles</p>
-      <p class="light center">The most successful team in FA Cup history</p>
+  <div class="row">
+    <div class="col s12">
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8313090656849396" data-ad-slot="9872305767"
+        data-ad-format="auto" data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
     </div>
   </div>
-  <div class="col s12 m4">
-    <div class="center promo promo-example card-panel hoverable">
-       {% include 49.svg %}
-      <p class="promo-caption">49 games unbeaten</p>
-      <p class="light center">Record unbeaten run in the premier league</p>
-    </div>
-  </div>
-</div>
-<div class="row">
-  <div class="col s12 m6 l6">
-       <div class="responsive-table card-panel hoverable">
-          <h2>Recent Results</h2>
+  <div class="row">
+    <div class="col s12 m6 l6">
+      <div class="responsive-table card-panel hoverable">
+        <h2>Recent Results</h2>
         <table class="highlight">
-            <thead>
-                <tr>
-                    <th>Score</th>
-                    <th>Competition</th>
-                    <th>Date</th>
-                </tr>
-            </thead>
+          <thead>
+            <tr>
+              <th>Score</th>
+              <th>Competition</th>
+              <th>Date</th>
+            </tr>
+          </thead>
 
-    {% assign seasons = site.seasons | reverse %}
-    {% for season in seasons limit:1 %}
-     <tbody>
-       {% assign matchesSorted = season.Matches | reverse %}
-       {% assign matches = matchesSorted | where_exp: 'item', 'item.ArsenalScore != nil'  %}
-      {% for match in matches limit:5 %}
-       <tr>
-          <td> {% if match.HomeOrAway == "Home" %}Arsenal {{ match.ArsenalScore}} - {{match.OppositionScore}} {{match.OppositionTeam}} {% else %}{{match.OppositionTeam}} {{match.OppositionScore}} - {{ match.ArsenalScore}} Arsenal{% endif %} </td>
-          <td>{{match.Competition}}</td>
-          <td>{{match.Date}}</td>
-      </tr>
-      {% endfor %}  
-        </tbody>
-    {% endfor %}  
-    </table>
-</div>
-</div>
+          {% assign seasons = site.seasons | reverse %}
+          {% for season in seasons limit:1 %}
+          <tbody>
+            {% assign matchesSorted = season.Matches | reverse %}
+            {% assign matches = matchesSorted | where_exp: 'item', 'item.ArsenalScore != nil' %}
+            {% for match in matches limit:5 %}
+            <tr>
+              <td> {% if match.HomeOrAway == "Home" %}Arsenal {{ match.ArsenalScore}} - {{match.OppositionScore}}
+                {{match.OppositionTeam}} {% else %}{{match.OppositionTeam}} {{match.OppositionScore}} - {{
+                match.ArsenalScore}} Arsenal{% endif %} </td>
+              <td>{{match.Competition}}</td>
+              <td>{{match.Date}}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+          {% endfor %}
+        </table>
+      </div>
+    </div>
 
-  <div class="col s12 m6 l6">
-       <div class="responsive-table card-panel hoverable">
-          <h2>Upcoming Fixtures</h2>
-            <table class="highlight">
-            <thead>
-                <tr>
-                    <th>Score</th>
-                    <th>Competition</th>
-                    <th>Date</th>
-                </tr>
-            </thead>
-    {% assign seasons = site.seasons | reverse %}
-    {% for season in seasons limit:1 %}
-     <tbody>
-        {% assign matches = season.Matches | where_exp: 'item', 'item.ArsenalScore == nil' %}
-      {% for match in matches limit:5 %}
-       <tr>
-          <td>{% if match.HomeOrAway == "Home" %}Arsenal {{ match.ArsenalScore}} - {{match.OppositionScore}} {{match.OppositionTeam}} {% else %}{{match.OppositionTeam}} {{match.OppositionScore}} - {{ match.ArsenalScore}} Arsenal{% endif %} </td>
-          <td>{{match.Competition}}</td>
-          <td>{{match.Date}}</td>
-      </tr>
-      {% endfor %}  
-        </tbody>
-    {% endfor %}  
-    </table>
-</div>
-</div>
-</div>
+    <div class="col s12 m6 l6">
+      <div class="responsive-table card-panel hoverable">
+        <h2>Upcoming Fixtures</h2>
+        <table class="highlight">
+          <thead>
+            <tr>
+              <th>Score</th>
+              <th>Competition</th>
+              <th>Date</th>
+            </tr>
+          </thead>
+          {% assign seasons = site.seasons | reverse %}
+          {% for season in seasons limit:1 %}
+          <tbody>
+            {% assign matches = season.Matches | where_exp: 'item', 'item.ArsenalScore == nil' %}
+            {% for match in matches limit:5 %}
+            <tr>
+              <td>{% if match.HomeOrAway == "Home" %}Arsenal {{ match.ArsenalScore}} - {{match.OppositionScore}}
+                {{match.OppositionTeam}} {% else %}{{match.OppositionTeam}} {{match.OppositionScore}} - {{
+                match.ArsenalScore}} Arsenal{% endif %} </td>
+              <td>{{match.Competition}}</td>
+              <td>{{match.Date}}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+          {% endfor %}
+        </table>
+      </div>
+    </div>
+  </div>
 
   <div class="row">
-      <div class="col s12">
-      <div class="lazy" data-lazy-function="googleRenderPremierLeaguePosition" id="scatter_chart_premier_league" style="width: 100%; min-height: 600px">  </div>
-    </div>
-</div>
-<div class="row">
-       <div class="col s12">
-      <div class="lazy" data-lazy-function="googleRenderLeaguePosition"  id="scatter_chart" style="width: 100%; min-height: 600px">  </div>
+    <div class="col s12">
+      <div class="lazy" data-lazy-function="googleRenderPremierLeaguePosition" id="scatter_chart_premier_league"
+        style="width: 100%; min-height: 600px"> </div>
     </div>
   </div>
-   <div class="row">
-       <div class="col s12">
-      <div class="lazy" data-lazy-function="googleRenderWinLossDrawChart"  id="pie_chart" style="width: 100%; min-height: 500px">  </div>
+  <div class="row">
+    <div class="col s12">
+      <div class="lazy" data-lazy-function="googleRenderLeaguePosition" id="scatter_chart"
+        style="width: 100%; min-height: 600px"> </div>
     </div>
   </div>
-
+  <div class="row">
+    <div class="col s12">
+      <div class="lazy" data-lazy-function="googleRenderWinLossDrawChart" id="pie_chart"
+        style="width: 100%; min-height: 500px"> </div>
+    </div>
+  </div>
