@@ -31,6 +31,44 @@ includeCharts: true
   <div class="row">
     <div class="col s12 m6 l6">
       <div class="responsive-table card-panel hoverable">
+        <h2>Last Match</h2>
+        {% assign seasons = site.seasons | reverse %}
+        {% for season in seasons limit:1 %}
+          {% assign matchesSorted = season.Matches | reverse %}
+          {% assign matches = matchesSorted | where_exp: 'item', 'item.ArsenalScore != nil' %}
+          {% for match in matches limit:1 %}
+          <p>
+            {% if match.HomeOrAway == "Home" %}Arsenal {{ match.ArsenalScore}} - {{match.OppositionScore}}
+              {{match.OppositionTeam}} {% else %}{{match.OppositionTeam}} {{match.OppositionScore}} - {{
+              match.ArsenalScore}} Arsenal{% endif %}
+            <p>{{match.Competition}}</p>
+            <p>{{match.Date}}</p>
+          </p>
+          {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+    <div class="col s12 m6 l6">
+      <div class="responsive-table card-panel hoverable">
+        <h2>Next Match</h2>
+        {% assign seasons = site.seasons | reverse %}
+        {% for season in seasons limit:1 %}
+          {% assign matches = season.Matches | where_exp: 'item', 'item.ArsenalScore == nil' %}
+          {% for match in matches limit:1 %}
+          <p>
+            {{match.OppositionTeam}} ({{match.HomeOrAway}})
+           
+            <p>{{match.Competition}}</p>
+            <p>{{match.Date}}</p>
+          </p>
+          {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12 m6 l6">
+      <div class="responsive-table card-panel hoverable">
         <h2>Recent Results</h2>
         <table class="highlight">
           <thead>
