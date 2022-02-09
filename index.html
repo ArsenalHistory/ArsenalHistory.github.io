@@ -29,7 +29,7 @@ includeCharts: true
     </div>
   </div>
   <div class="row">
-    <div class="col s12 m6 l6">
+    <div class="col s12">
       <div class="responsive-table card-panel hoverable">
         <h2>Last Match</h2>
         {% assign seasons = site.seasons | reverse %}
@@ -48,24 +48,83 @@ includeCharts: true
         {% endfor %}
       </div>
     </div>
-    <div class="col s12 m6 l6">
+  </div>
+  <div class="row">
+    <div class="col s12">
       <div class="responsive-table card-panel hoverable">
-        <h2>Next Match</h2>
+        
         {% assign seasons = site.seasons | reverse %}
         {% for season in seasons limit:1 %}
           {% assign matches = season.Matches | where_exp: 'item', 'item.ArsenalScore == nil' %}
           {% for match in matches limit:1 %}
-          <p>
-            {{match.OppositionTeam}} ({{match.HomeOrAway}})
+          
+            <h2>Next Match:  {{match.OppositionTeam}} ({{match.HomeOrAway}}) </h2>
            
             <p>{{match.Competition}}</p>
             <p>{{match.Date}}</p>
-          </p>
+          
           {% endfor %}
         {% endfor %}
+
+        {% assign seasons = site.seasons | reverse %}
+        {% for season in seasons limit:1 %}
+          {% assign matches = season.Matches | where_exp: 'item', 'item.ArsenalScore == nil' %}
+            {% for match in matches limit:1 %}
+            {% assign opposition_team = match.OppositionTeam %}
+          {% endfor %}
+        {% endfor %}
+        
+          {% for data in site.seasons %} 
+             {% for match in data.Matches %}
+                {% if match.OppositionTeam == opposition_team %}
+              {% capture oppositionWins %}
+                {% if match.OppositionScore > match.ArsenalScore %}
+                  {{ oppositionWins | plus: 1 }}
+                {% else %}
+                  {{ oppositionWins | plus: 0 }}
+                {% endif %} 
+              {% endcapture %}
+              {% capture arsenalWins %}
+                {% if match.OppositionScore < match.ArsenalScore %}
+                  {{ arsenalWins | plus: 1 }}
+                {% else %}
+                  {{ arsenalWins | plus: 0 }}
+                {% endif %} 
+              {% endcapture %}
+              {% capture draws %}
+                {% if match.OppositionScore == match.ArsenalScore %}
+                  {{ draws | plus: 1 }} 
+                {% else %}
+                  {{ draws | plus: 0 }}
+                {% endif %} 
+              {% endcapture %}   
+               {% endif %}  
+              {% endfor %}
+          {% endfor %}
+        <h3>Head to Head</h3>
+              <div class="responsive-table card-panel hoverable">
+                <table class="highlight">
+                  <thead>
+                    <tr>
+                      <th>Arsenal Wins</th>
+                      <th>{{opposition_team}} Wins</th>
+                      <th>Draws</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>{{arsenalWins}} </td>
+                      <td>{{oppositionWins}}</td>
+                      <td>{{draws}}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
       </div>
     </div>
   </div>
+
   <div class="row">
     <div class="col s12 m6 l6">
       <div class="responsive-table card-panel hoverable">
