@@ -1,6 +1,6 @@
 ---
 layout: default
-team: Brentford
+team: Brentford FC
 url: brentford
 title: Arsenal vs Brentford - Head to Head
 excerpt: Arsenal vs Brentford, Head to Head, Results and Scores on History of Arsenal Football Club
