@@ -3,7 +3,7 @@
 
 {% for data in site.seasons %} 
      {% for match in data.Matches %}
-        {% if match.OppositionTeam == page.OppositionTeam and match.Competition == "League" %}
+        {% if match.OppositionTeam == page.OppositionTeam %}
       {% capture oppositionWins %}
         {% if match.OppositionScore > match.ArsenalScore %}
           {{ oppositionWins | plus: 1 }}
