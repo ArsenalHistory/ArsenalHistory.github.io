@@ -106,7 +106,7 @@ function drawPremierLeaguePosition() {
 
   {% for data in site.seasons %} 
      {% for match in data.Matches %}
-     {% if match.Competition == "League" %}
+     {% if match.Competition %}
       {% capture oppositionWins %}
         {% if match.OppositionScore > match.ArsenalScore %}
           {{ oppositionWins | plus: 1 }}
@@ -141,7 +141,7 @@ function drawWinLossDrawChart() {
     ]);
 
     var options = {
-        title: 'Win/Draw/Loss record since 1893 in the League',
+        title: 'Win/Draw/Loss record in all competitons  (1893 - present)',
         curveType: 'function',
         legend: { position: 'bottom' },
         is3D: true,
