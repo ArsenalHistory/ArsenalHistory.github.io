@@ -12,7 +12,7 @@ description: A history of all the famous moments for the Arsenal Football Club. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.arsenalhistory.co.uk" # the base hostname & protocol for your site
 
-gems: [jekyll-paginate,jekyll-sitemap]
+gems: [jekyll-paginate,jekyll-sitemap,jekyll-redirect-from]
 permalink: /memorable-matches/:categories/:year/:title/
 paginate: 9
 paginate_path: "/memorable-matches/page:num"
