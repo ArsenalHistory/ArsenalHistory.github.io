@@ -13,6 +13,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.arsenalhistory.co.uk" # the base hostname & protocol for your site
 
 gems: [jekyll-paginate,jekyll-sitemap]
+permalink: /memorable-matches/:categories/:year/:title/
 paginate: 9
 paginate_path: "/memorable-matches/page:num"
 
@@ -23,7 +24,7 @@ sass:
     sass_dir: _sass
     style: compressed
 
-permalink: /:categories/:year/:title/
+
 
 collections:
   seasons:
