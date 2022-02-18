@@ -1,0 +1,46 @@
+
+{% for data in site.seasons %} 
+     {% for match in data.Matches %}
+        {% if match.OppositionTeam == include.opposition_team %}
+      {% capture oppositionWins %}
+        {% if match.OppositionScore > match.ArsenalScore %}
+          {{ oppositionWins | plus: 1 }}
+        {% else %}
+          {{ oppositionWins | plus: 0 }}
+        {% endif %} 
+      {% endcapture %}
+      {% capture arsenalWins %}
+        {% if match.OppositionScore < match.ArsenalScore %}
+          {{ arsenalWins | plus: 1 }}
+        {% else %}
+          {{ arsenalWins | plus: 0 }}
+        {% endif %} 
+      {% endcapture %}
+      {% capture draws %}
+        {% if match.OppositionScore == match.ArsenalScore %}
+          {{ draws | plus: 1 }} 
+        {% else %}
+          {{ draws | plus: 0 }}
+        {% endif %} 
+      {% endcapture %}   
+       {% endif %}  
+      {% endfor %}
+  {% endfor %}
+
+
+ <table class="highlight">
+    <thead>
+      <tr>
+        <th>Arsenal Wins</th>
+        <th>{{include.opposition_team}} Wins</th>
+        <th>Draws</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{arsenalWins}} </td>
+        <td>{{oppositionWins}}</td>
+        <td>{{draws}}</td>
+      </tr>
+    </tbody>
+</table>

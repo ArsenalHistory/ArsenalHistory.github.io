@@ -1,5 +1,5 @@
 {% for data in page.Matches %} 
-{% if data.Competition == "League" %} 
+{% if data.Competition == "League" or data.Competition == "Premier League" %} 
 {% capture arsenal_score %} 
 {{ arsenal_score | plus: data.ArsenalScore }} 
 {% endcapture %}
