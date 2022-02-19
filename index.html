@@ -45,7 +45,6 @@ includeCharts: true
           {% endfor %}
         {% endfor %}
 
-        {% assign seasons = site.seasons | reverse %}
         {% for season in seasons limit:1 %}
           {% assign matches = season.Matches | where_exp: 'item', 'item.ArsenalScore == nil' %}
             {% for match in matches limit:1 %}
@@ -65,7 +64,6 @@ includeCharts: true
   <div class="row">
     <div class="col s12">
       <div class="responsive-table card-panel hoverable">
-        {% assign seasons = site.seasons | reverse %}
         {% for season in seasons limit:1 %}
           {% assign matchesSorted = season.Matches | reverse %}
           {% assign matches = matchesSorted | where_exp: 'item', 'item.ArsenalScore != nil' %}
@@ -102,7 +100,6 @@ includeCharts: true
             </tr>
           </thead>
 
-          {% assign seasons = site.seasons | reverse %}
           {% for season in seasons limit:1 %}
           <tbody>
             {% assign matchesSorted = season.Matches | reverse %}
@@ -133,7 +130,6 @@ includeCharts: true
               <th>Date</th>
             </tr>
           </thead>
-          {% assign seasons = site.seasons | reverse %}
           {% for season in seasons limit:1 %}
           <tbody>
             {% assign matches = season.Matches | where_exp: 'item', 'item.ArsenalScore == nil' %}
@@ -152,6 +148,91 @@ includeCharts: true
       </div>
     </div>
   </div>
+
+  <div class="row">
+    <div class="col s12">
+      <div class="responsive-table card-panel hoverable">
+        {% assign seasons = site.womenseasons | reverse %}
+        {% for season in seasons limit:1 %}
+          {% assign matchesSorted = season.Matches | reverse %}
+          {% assign matches = matchesSorted | where_exp: 'item', 'item.ArsenalScore != nil' %}
+          {% for match in matches limit:1 %}
+          
+           <h2> {% if match.HomeOrAway == "Home" %}Arsenal {{ match.ArsenalScore}} - {{match.OppositionScore}}
+              {{match.OppositionTeam}} {% else %}{{match.OppositionTeam}} {{match.OppositionScore}} - {{
+              match.ArsenalScore}} Arsenal{% endif %}</h2>
+            <p>{{match.Competition}}</p>
+            <p>{{match.Date}}</p>
+          
+
+         
+          {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col s12 m6 l6">
+      <div class="responsive-table card-panel hoverable">
+        <h2>Recent Results</h2>
+        <table class="highlight">
+          <thead>
+            <tr>
+              <th>Score</th>
+              <th>Competition</th>
+              <th>Date</th>
+            </tr>
+          </thead>
+
+          {% for season in seasons limit:1 %}
+          <tbody>
+            {% assign matchesSorted = season.Matches | reverse %}
+            {% assign matches = matchesSorted | where_exp: 'item', 'item.ArsenalScore != nil' %}
+            {% for match in matches limit:5 %}
+            <tr>
+              <td> {% if match.HomeOrAway == "Home" %}Arsenal {{ match.ArsenalScore}} - {{match.OppositionScore}}
+                {{match.OppositionTeam}} {% else %}{{match.OppositionTeam}} {{match.OppositionScore}} - {{
+                match.ArsenalScore}} Arsenal{% endif %} </td>
+              <td>{{match.Competition}}</td>
+              <td>{{match.Date}}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+          {% endfor %}
+        </table>
+      </div>
+    </div>
+
+    <div class="col s12 m6 l6">
+      <div class="responsive-table card-panel hoverable">
+        <h2>Upcoming Fixtures</h2>
+        <table class="highlight">
+          <thead>
+            <tr>
+              <th>Score</th>
+              <th>Competition</th>
+              <th>Date</th>
+            </tr>
+          </thead>
+          {% for season in seasons limit:1 %}
+          <tbody>
+            {% assign matches = season.Matches | where_exp: 'item', 'item.ArsenalScore == nil' %}
+            {% for match in matches limit:5 %}
+            <tr>
+              <td>{% if match.HomeOrAway == "Home" %}Arsenal {{ match.ArsenalScore}} - {{match.OppositionScore}}
+                {{match.OppositionTeam}} {% else %}{{match.OppositionTeam}} {{match.OppositionScore}} - {{
+                match.ArsenalScore}} Arsenal{% endif %} </td>
+              <td>{{match.Competition}}</td>
+              <td>{{match.Date}}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+          {% endfor %}
+        </table>
+      </div>
+    </div>
 
   <div class="row">
     <div class="col s12">

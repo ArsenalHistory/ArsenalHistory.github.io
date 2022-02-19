@@ -33,5 +33,8 @@ collections:
   teams:
     output: true
     permalink: /:collection/:path/
+  womenseasons:
+    output: true
+    permalink: /women/:collection/:path/
 
 
