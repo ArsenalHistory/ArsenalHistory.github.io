@@ -3,6 +3,9 @@
     <div class="nav-wrapper logos">
       <a href="/" class="brand-logo" aria-label="Arsenal Logo on header">{% include arsenal_1932.svg %}</a>
       <h1>{{page.title}}</h1>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger hide-on-large-only">
+        <i class="material-icons">menu</i>
+      </a>
       <ul class="hide-on-med-and-down right">
         <li><a href="/stats/">Statistics</a></li>
         <li><a href="/memorable-matches/">Memorable matches</a></li>
@@ -12,4 +15,12 @@
       </ul>
     </div>
   </nav>
+  <ul class="sidenav side-nav" id="mobile-demo">
+    <li><a href="/stats/">Statistics</a></li>
+    <li><a href="/memorable-matches/">Memorable matches</a></li>
+    <li><a href="/records/">Records</a></li>
+    <li><a href="/teams/">Head to Head</a></li>
+    <li><a href="/seasons/">Seasons</a></li>
+    <li><a class="sidenav-close" href="#!">Close</a></li>
+  </ul>
 </header>

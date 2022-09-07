@@ -25,3 +25,9 @@ if ('serviceWorker' in navigator) {
         .then(function () { console.log("Service Worker Registered"); });
 }
 
+
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
+
+
+
