@@ -109,6 +109,23 @@ $shades: (
   "transparent":  transparent
 );
 
+$yellow: (
+  "base":       #ffeb3b,
+  "lighten-5":  #fffde7,
+  "lighten-4":  #fff9c4,
+  "lighten-3":  #fff59d,
+  "lighten-2":  #fff176,
+  "lighten-1":  #ffee58,
+  "darken-1":   #fdd835,
+  "darken-2":   #fbc02d,
+  "darken-3":   #f9a825,
+  "darken-4":   #f57f17,
+  "accent-1":    #ffff8d,
+  "accent-2":    #ffff00,
+  "accent-3":    #ffea00,
+  "accent-4":    #ffd600
+);
+
 $colors: (
   "materialize-red": $materialize-red,
   "red": $red,
@@ -116,7 +133,8 @@ $colors: (
   "teal": $teal,
   "green": $green,
   "grey": $grey,
-  "shades": $shades
+  "shades": $shades,
+  "yellow" : $yellow
 );
 
 
