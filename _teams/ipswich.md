@@ -2,7 +2,7 @@
 layout: default
 team: Ipswich
 url: ipswich
-title: Arsenal vs Ipswich - Head to Head
+title: Arsenal vs Ipswich
 excerpt: Arsenal vs Ipswich, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Ipswich
 breadcrumbs:

@@ -2,7 +2,7 @@
 layout: default
 team: Manchester City
 url: manchester-city
-title: Arsenal vs Manchester City - Head to Head
+title: Arsenal vs Manchester City
 excerpt: Arsenal vs Manchester City, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Manchester City
 breadcrumbs:

@@ -2,7 +2,7 @@
 layout: default
 team: Chelsea
 url: chelsea
-title: Arsenal vs Chelsea - Head to Head
+title: Arsenal vs Chelsea
 excerpt: Arsenal vs Chelsea, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Chelsea
 breadcrumbs:

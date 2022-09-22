@@ -2,7 +2,7 @@
 layout: default
 team: Wimbledon
 url: wimbledon
-title: Arsenal vs Wimbledon - Head to Head
+title: Arsenal vs Wimbledon
 excerpt: Arsenal vs Wimbledon, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Wimbledon
 breadcrumbs:

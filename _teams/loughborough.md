@@ -2,7 +2,7 @@
 layout: default
 team: Loughbr'gh Dy
 url: loughborough
-title: Arsenal vs Loughbr'gh Dy - Head to Head
+title: Arsenal vs Loughbr'gh Dy
 excerpt: Arsenal vs Loughbr'gh Dy, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Loughbr'gh Dy
 breadcrumbs:

@@ -2,7 +2,7 @@
 layout: default
 team: Birmingham
 url: birmingham
-title: Arsenal vs Birmingham - Head to Head
+title: Arsenal vs Birmingham
 excerpt: Arsenal vs Birmingham, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Birmingham
 breadcrumbs:

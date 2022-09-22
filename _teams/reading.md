@@ -2,7 +2,7 @@
 layout: default
 team: Reading
 url: reading
-title: Arsenal vs Reading - Head to Head
+title: Arsenal vs Reading
 excerpt: Arsenal vs Reading, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Reading
 breadcrumbs:

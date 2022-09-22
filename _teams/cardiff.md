@@ -2,7 +2,7 @@
 layout: default
 team: Cardiff
 url: cardiff
-title: Arsenal vs Cardiff - Head to Head
+title: Arsenal vs Cardiff
 excerpt: Arsenal vs Cardiff, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Cardiff
 breadcrumbs:

@@ -2,7 +2,7 @@
 layout: default
 team: Nottm Forest
 url: nottm-forest
-title: Arsenal vs Nottm Forest - Head to Head
+title: Arsenal vs Nottm Forest
 excerpt: Arsenal vs Nottm Forest, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Nottm Forest
 breadcrumbs:

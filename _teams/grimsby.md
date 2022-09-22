@@ -2,7 +2,7 @@
 layout: default
 team: Grimsby
 url: grimsby
-title: Arsenal vs Grimsby - Head to Head
+title: Arsenal vs Grimsby
 excerpt: Arsenal vs Grimsby, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Grimsby
 breadcrumbs:

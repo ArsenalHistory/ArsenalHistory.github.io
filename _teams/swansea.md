@@ -2,7 +2,7 @@
 layout: default
 team: Swansea
 url: swansea
-title: Arsenal vs Swansea - Head to Head
+title: Arsenal vs Swansea
 excerpt: Arsenal vs Swansea, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Swansea
 breadcrumbs:

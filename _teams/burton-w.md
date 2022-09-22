@@ -2,7 +2,7 @@
 layout: default
 team: Burton W
 url: burton-w
-title: Arsenal vs Burton W - Head to Head
+title: Arsenal vs Burton W
 excerpt: Arsenal vs Burton W, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Burton W
 breadcrumbs:

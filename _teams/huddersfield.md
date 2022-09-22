@@ -2,7 +2,7 @@
 layout: default
 team: Huddersfield
 url: huddersfield
-title: Arsenal vs Huddersfield - Head to Head
+title: Arsenal vs Huddersfield
 excerpt: Arsenal vs Huddersfield, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Huddersfield
 breadcrumbs:

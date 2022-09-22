@@ -2,7 +2,7 @@
 layout: default
 team: Bradford PA
 url: bradford-pa
-title: Arsenal vs Bradford PA - Head to Head
+title: Arsenal vs Bradford PA
 excerpt: Arsenal vs Bradford PA, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Bradford PA
 breadcrumbs:

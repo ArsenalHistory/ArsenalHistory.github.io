@@ -2,7 +2,7 @@
 layout: default
 team: Bristol City
 url: bristol-city
-title: Arsenal vs Bristol City - Head to Head
+title: Arsenal vs Bristol City
 excerpt: Arsenal vs Bristol City, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Bristol City
 breadcrumbs:

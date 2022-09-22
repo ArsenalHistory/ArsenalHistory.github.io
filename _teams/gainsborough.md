@@ -2,7 +2,7 @@
 layout: default
 team: Gainsborough
 url: gainsborough
-title: Arsenal vs Gainsborough - Head to Head
+title: Arsenal vs Gainsborough
 excerpt: Arsenal vs Gainsborough, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Gainsborough
 breadcrumbs:

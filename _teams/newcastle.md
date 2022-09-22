@@ -2,7 +2,7 @@
 layout: default
 team: Newcastle
 url: newcastle
-title: Arsenal vs Newcastle - Head to Head
+title: Arsenal vs Newcastle
 excerpt: Arsenal vs Newcastle, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Newcastle
 breadcrumbs:

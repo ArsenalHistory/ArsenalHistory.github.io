@@ -2,7 +2,7 @@
 layout: default
 team: Oldham
 url: oldham
-title: Arsenal vs Oldham - Head to Head
+title: Arsenal vs Oldham
 excerpt: Arsenal vs Oldham, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Oldham
 breadcrumbs:

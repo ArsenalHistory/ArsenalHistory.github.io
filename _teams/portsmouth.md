@@ -2,7 +2,7 @@
 layout: default
 team: Portsmouth
 url: portsmouth
-title: Arsenal vs Portsmouth - Head to Head
+title: Arsenal vs Portsmouth
 excerpt: Arsenal vs Portsmouth, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Portsmouth
 breadcrumbs:

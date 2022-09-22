@@ -2,7 +2,7 @@
 layout: default
 team: Walsall
 url: walsall
-title: Arsenal vs Walsall - Head to Head
+title: Arsenal vs Walsall
 excerpt: Arsenal vs Walsall, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Walsall
 breadcrumbs:

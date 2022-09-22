@@ -2,7 +2,7 @@
 layout: default
 team: Bolton
 url: bolton
-title: Arsenal vs Bolton - Head to Head
+title: Arsenal vs Bolton
 excerpt: Arsenal vs Bolton, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Bolton
 breadcrumbs:

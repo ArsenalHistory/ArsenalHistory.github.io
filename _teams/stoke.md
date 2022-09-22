@@ -2,7 +2,7 @@
 layout: default
 team: Stoke
 url: stoke
-title: Arsenal vs Stoke - Head to Head
+title: Arsenal vs Stoke
 excerpt: Arsenal vs Stoke, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Stoke
 breadcrumbs:

@@ -2,7 +2,7 @@
 layout: default
 team: Millwall
 url: millwall
-title: Arsenal vs Millwall - Head to Head
+title: Arsenal vs Millwall
 excerpt: Arsenal vs Millwall, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Millwall
 breadcrumbs:

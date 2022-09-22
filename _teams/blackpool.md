@@ -2,7 +2,7 @@
 layout: default
 team: Blackpool
 url: blackpool
-title: Arsenal vs Blackpool - Head to Head
+title: Arsenal vs Blackpool
 excerpt: Arsenal vs Blackpool, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Blackpool
 breadcrumbs:

@@ -2,7 +2,7 @@
 layout: default
 team: Coventry
 url: coventry
-title: Arsenal vs Coventry - Head to Head
+title: Arsenal vs Coventry
 excerpt: Arsenal vs Coventry, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Coventry
 breadcrumbs:

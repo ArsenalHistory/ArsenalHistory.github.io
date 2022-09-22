@@ -2,7 +2,7 @@
 layout: default
 team: Leeds City
 url: leeds-city
-title: Arsenal vs Leeds City - Head to Head
+title: Arsenal vs Leeds City
 excerpt: Arsenal vs Leeds City, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Leeds City
 breadcrumbs:

@@ -2,7 +2,7 @@
 layout: default
 team: Leeds
 url: leeds
-title: Arsenal vs Leeds - Head to Head
+title: Arsenal vs Leeds
 excerpt: Arsenal vs Leeds, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Leeds
 breadcrumbs:

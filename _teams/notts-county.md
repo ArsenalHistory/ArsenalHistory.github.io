@@ -2,7 +2,7 @@
 layout: default
 team: Notts County
 url: notts-county
-title: Arsenal vs Notts County - Head to Head
+title: Arsenal vs Notts County
 excerpt: Arsenal vs Notts County, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Notts County
 breadcrumbs:

@@ -2,7 +2,7 @@
 layout: default
 team: Carlisle
 url: carlisle
-title: Arsenal vs Carlisle - Head to Head
+title: Arsenal vs Carlisle
 excerpt: Arsenal vs Carlisle, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Carlisle
 breadcrumbs:

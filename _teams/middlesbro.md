@@ -2,7 +2,7 @@
 layout: default
 team: Middlesbro
 url: middlesbro
-title: Arsenal vs Middlesbro - Head to Head
+title: Arsenal vs Middlesbro
 excerpt: Arsenal vs Middlesbro, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Middlesbro
 breadcrumbs:

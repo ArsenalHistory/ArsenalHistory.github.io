@@ -2,7 +2,7 @@
 layout: default
 team: Manchester United
 url: manchester-united
-title: Arsenal vs Manchester United - Head to Head
+title: Arsenal vs Manchester United
 excerpt: Arsenal vs Manchester United, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Manchester United
 breadcrumbs:

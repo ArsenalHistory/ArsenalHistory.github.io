@@ -2,7 +2,7 @@
 layout: default
 team: Crystal Palace
 url: crystal-palace
-title: Arsenal vs Crystal Palace - Head to Head
+title: Arsenal vs Crystal Palace
 excerpt: Arsenal vs Crystal Palace, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Crystal Palace
 breadcrumbs:

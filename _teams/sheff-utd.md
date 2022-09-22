@@ -2,7 +2,7 @@
 layout: default
 team: Sheff Utd
 url: sheff-utd
-title: Arsenal vs Sheff Utd - Head to Head
+title: Arsenal vs Sheff Utd
 excerpt: Arsenal vs Sheff Utd, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Sheff Utd
 breadcrumbs:

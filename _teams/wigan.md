@@ -2,7 +2,7 @@
 layout: default
 team: Wigan
 url: wigan
-title: Arsenal vs Wigan - Head to Head
+title: Arsenal vs Wigan
 excerpt: Arsenal vs Wigan, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Wigan
 breadcrumbs:

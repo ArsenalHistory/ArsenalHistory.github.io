@@ -2,7 +2,7 @@
 layout: default
 team: Tottenham
 url: tottenham
-title: Arsenal vs Tottenham - Head to Head
+title: Arsenal vs Tottenham
 excerpt: Arsenal vs Tottenham, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Tottenham
 breadcrumbs:

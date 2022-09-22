@@ -2,7 +2,7 @@
 layout: default
 team: Rotherham Town
 url: rotherham-town
-title: Arsenal vs Rotherham Town - Head to Head
+title: Arsenal vs Rotherham Town
 excerpt: Arsenal vs Rotherham Town, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Rotherham Town
 breadcrumbs:

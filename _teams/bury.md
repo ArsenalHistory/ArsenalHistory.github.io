@@ -2,7 +2,7 @@
 layout: default
 team: Bury
 url: bury
-title: Arsenal vs Bury - Head to Head
+title: Arsenal vs Bury
 excerpt: Arsenal vs Bury, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Bury
 breadcrumbs:

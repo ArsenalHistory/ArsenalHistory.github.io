@@ -2,7 +2,7 @@
 layout: default
 team: Leicester
 url: leicester
-title: Arsenal vs Leicester - Head to Head
+title: Arsenal vs Leicester
 excerpt: Arsenal vs Leicester, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Leicester
 breadcrumbs:

@@ -2,7 +2,7 @@
 layout: default
 team: Luton
 url: luton
-title: Arsenal vs Luton - Head to Head
+title: Arsenal vs Luton
 excerpt: Arsenal vs Luton, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Luton
 breadcrumbs:

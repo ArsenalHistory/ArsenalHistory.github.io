@@ -2,7 +2,7 @@
 layout: default
 team: Stockport
 url: stockport
-title: Arsenal vs Stockport - Head to Head
+title: Arsenal vs Stockport
 excerpt: Arsenal vs Stockport, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Stockport
 breadcrumbs:

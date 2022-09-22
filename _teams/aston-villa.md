@@ -2,7 +2,7 @@
 layout: default
 team: Aston Villa
 url: aston-villa
-title: Arsenal vs Aston Villa - Head to Head
+title: Arsenal vs Aston Villa
 excerpt: Arsenal vs Aston Villa, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam : Aston Villa
 breadcrumbs:

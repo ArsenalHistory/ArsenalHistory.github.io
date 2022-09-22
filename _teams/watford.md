@@ -2,7 +2,7 @@
 layout: default
 team: Watford
 url: watford
-title: Arsenal vs Watford - Head to Head
+title: Arsenal vs Watford
 excerpt: Arsenal vs Watford, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Watford
 breadcrumbs:

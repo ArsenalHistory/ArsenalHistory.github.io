@@ -2,7 +2,7 @@
 layout: default
 team: Blackburn
 url: blackburn
-title: Arsenal vs Blackburn - Head to Head
+title: Arsenal vs Blackburn
 excerpt: Arsenal vs Blackburn, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Blackburn
 breadcrumbs:

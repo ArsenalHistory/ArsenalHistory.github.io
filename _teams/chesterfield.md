@@ -2,7 +2,7 @@
 layout: default
 team: Chesterfield
 url: chesterfield
-title: Arsenal vs Chesterfield - Head to Head
+title: Arsenal vs Chesterfield
 excerpt: Arsenal vs Chesterfield, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Chesterfield
 breadcrumbs:

@@ -2,7 +2,7 @@
 layout: default
 team: Everton
 url: everton
-title: Arsenal vs Everton - Head to Head
+title: Arsenal vs Everton
 excerpt: Arsenal vs Everton, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Everton
 breadcrumbs:

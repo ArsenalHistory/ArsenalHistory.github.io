@@ -2,7 +2,7 @@
 layout: default
 team: Port Vale
 url: port-vale
-title: Arsenal vs Port Vale - Head to Head
+title: Arsenal vs Port Vale
 excerpt: Arsenal vs Port Vale, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Port Vale
 breadcrumbs:

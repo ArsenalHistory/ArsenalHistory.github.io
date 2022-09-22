@@ -2,7 +2,7 @@
 layout: default
 team: Glossop
 url: glossop
-title: Arsenal vs Glossop - Head to Head
+title: Arsenal vs Glossop
 excerpt: Arsenal vs Glossop, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Glossop
 breadcrumbs:

@@ -2,7 +2,7 @@
 layout: default
 team: New Brighton T
 url: new-brighton-t
-title: Arsenal vs New Brighton T - Head to Head
+title: Arsenal vs New Brighton T
 excerpt: Arsenal vs New Brighton T, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: New Brighton T
 breadcrumbs:

@@ -2,7 +2,7 @@
 layout: default
 team: Lincoln
 url: lincoln
-title: Arsenal vs Lincoln - Head to Head
+title: Arsenal vs Lincoln
 excerpt: Arsenal vs Lincoln, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Lincoln
 breadcrumbs:

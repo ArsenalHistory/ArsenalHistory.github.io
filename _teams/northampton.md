@@ -2,7 +2,7 @@
 layout: default
 team: Northampton
 url: northampton
-title: Arsenal vs Northampton - Head to Head
+title: Arsenal vs Northampton
 excerpt: Arsenal vs Northampton, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Northampton
 breadcrumbs:

@@ -2,7 +2,7 @@
 layout: default
 team: Crewe
 url: crewe
-title: Arsenal vs Crewe - Head to Head
+title: Arsenal vs Crewe
 excerpt: Arsenal vs Crewe, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Crewe
 breadcrumbs:

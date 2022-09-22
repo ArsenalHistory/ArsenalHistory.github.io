@@ -2,7 +2,7 @@
 layout: default
 team: Leyton Orient
 url: leyton-orient
-title: Arsenal vs Leyton Orient - Head to Head
+title: Arsenal vs Leyton Orient
 excerpt: Arsenal vs Leyton Orient, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Leyton Orient
 breadcrumbs:

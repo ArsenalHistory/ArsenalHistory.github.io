@@ -2,7 +2,7 @@
 layout: default
 team: Sunderland
 url: sunderland
-title: Arsenal vs Sunderland - Head to Head
+title: Arsenal vs Sunderland
 excerpt: Arsenal vs Sunderland, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Sunderland
 breadcrumbs:

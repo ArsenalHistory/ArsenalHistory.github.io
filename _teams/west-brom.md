@@ -2,7 +2,7 @@
 layout: default
 team: West Brom
 url: west-brom
-title: Arsenal vs West Brom - Head to Head
+title: Arsenal vs West Brom
 excerpt: Arsenal vs West Brom, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: West Brom
 breadcrumbs:

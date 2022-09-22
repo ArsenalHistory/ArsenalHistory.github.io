@@ -2,7 +2,7 @@
 layout: default
 team: Oxford
 url: oxford
-title: Arsenal vs Oxford - Head to Head
+title: Arsenal vs Oxford
 excerpt: Arsenal vs Oxford, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Oxford
 breadcrumbs:

@@ -2,7 +2,7 @@
 layout: default
 team: Sheff Wed
 url: sheff-wed
-title: Arsenal vs Sheff Wed - Head to Head
+title: Arsenal vs Sheff Wed
 excerpt: Arsenal vs Sheff Wed, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Sheff Wed
 breadcrumbs:

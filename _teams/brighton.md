@@ -2,7 +2,7 @@
 layout: default
 team: Brighton
 url: brighton
-title: Arsenal vs Brighton - Head to Head
+title: Arsenal vs Brighton
 excerpt: Arsenal vs Brighton, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Brighton
 breadcrumbs:

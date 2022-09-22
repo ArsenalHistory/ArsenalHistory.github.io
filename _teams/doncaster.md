@@ -2,7 +2,7 @@
 layout: default
 team: Doncaster
 url: doncaster
-title: Arsenal vs Doncaster - Head to Head
+title: Arsenal vs Doncaster
 excerpt: Arsenal vs Doncaster, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Doncaster
 breadcrumbs:

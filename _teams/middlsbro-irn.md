@@ -2,7 +2,7 @@
 layout: default
 team: Middlsbro Irn
 url: middlsbro-irn
-title: Arsenal vs Middlsbro Irn - Head to Head
+title: Arsenal vs Middlsbro Irn
 excerpt: Arsenal vs Middlsbro Irn, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Middlsbro Irn
 breadcrumbs:

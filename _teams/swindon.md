@@ -2,7 +2,7 @@
 layout: default
 team: Swindon
 url: swindon
-title: Arsenal vs Swindon - Head to Head
+title: Arsenal vs Swindon
 excerpt: Arsenal vs Swindon, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Swindon
 breadcrumbs:

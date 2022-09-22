@@ -2,7 +2,7 @@
 layout: default
 team: Northwich
 url: northwich
-title: Arsenal vs Northwich - Head to Head
+title: Arsenal vs Northwich
 excerpt: Arsenal vs Northwich, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Northwich
 breadcrumbs:

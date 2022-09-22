@@ -2,7 +2,7 @@
 layout: default
 team: Wolves
 url: wolves
-title: Arsenal vs Wolves - Head to Head
+title: Arsenal vs Wolves
 excerpt: Arsenal vs Wolves, Head to Head, Results and Scores on History of Arsenal Football Club
 OppositionTeam: Wolves
 breadcrumbs:
