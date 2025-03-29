@@ -11,6 +11,7 @@ email: hemdagem@gmail.com
 description: A history of all the famous moments for the Arsenal Football Club. Going unbeaten in 2003/2004 which immortalised Arsenal FC.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.arsenalhistory.co.uk" # the base hostname & protocol for your site
+exclude: ["generatefixtures/**"]
 
 gems: [jekyll-paginate,jekyll-sitemap,jekyll-redirect-from]
 permalink: /memorable-matches/:categories/:year/:title/
