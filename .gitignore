@@ -4,3 +4,6 @@
 .vscode
 _site
 .jekyll-cache
+
+generatefixtures/node_modules/**
+node_modules
