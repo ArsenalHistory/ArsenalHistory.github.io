@@ -49,7 +49,9 @@ async function generateFixtures(startYear = 2024, endYear = 2025) {
             const oppositionTeam = $(element).find('.team-crest__name-value')
                 .toArray()
                 .map((node) => $(node).text())
-                .find((name) => name !== 'Arsenal') || 'TBC';
+                .find((name) => name !== 'Arsenal') || '';
+
+            if (!oppositionTeam) return;
 
             //if (!competitions.includes(competition)) return;
 
