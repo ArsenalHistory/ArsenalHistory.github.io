@@ -51,7 +51,7 @@ async function generateFixtures(startYear = 2024, endYear = 2025) {
                 .map((node) => $(node).text())
                 .find((name) => name !== 'Arsenal') || 'TBC';
 
-            if (!competitions.includes(competition)) return;
+            //if (!competitions.includes(competition)) return;
 
             builder.push(` - Competition : ${competition}`);
             builder.push(`   Date : ${datetime}`);
