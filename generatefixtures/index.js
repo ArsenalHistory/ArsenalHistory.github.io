@@ -75,8 +75,8 @@ async function generateFixtures(startYear = 2024, endYear = 2025) {
 // Main Function
 (async () => {
     try {
-        const startYear = 2024;
-        const endYear = 2025;
+        const startYear = 2025;
+        const endYear = 2026;
         const response = await generateFixtures(startYear, endYear);
         console.log(response);
         fs.writeFileSync(`../_seasons/${startYear}-${endYear}.md`, response);
